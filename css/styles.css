@@ -1,6 +1,14 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121; 
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --bkg-white-color: #E5E5E5;
+}
+
 .page {
-    background-color: #E5E5E5;
-    color: #757575;
+    background-color: var(--bkg-white-color);
+    color: var(--accent-color);
 }
 
 ul {
@@ -22,7 +30,7 @@ letter-spacing: 0.03em
 }
 
 .special {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .navigation-list .link {
@@ -37,12 +45,29 @@ letter-spacing: 0.02em;
 
 .navigation-list .link:hover,
 .navigation-list .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* main */
 
-/* заголовки h2 */
+/* hero */
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--white-color);
+    
+}
+
+/* title h2 */
 .section-title {
     font-family: 'Roboto';
 font-style: normal;
@@ -52,11 +77,11 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--title-text-color);
 }
 
-/* заголовок h3 для секции особенности  */
-.section .subtitle {
+/* title h3 для секции особенности  */
+.feature-list .subtitle {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -64,7 +89,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--title-text-color);
 }
 
 /* абзацы */
@@ -76,11 +101,11 @@ font-size: 14px;
 line-height: 24px;
 /* or 171% */
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-text-color);
 }
 
 /* заголовок для h2 наша команда */
-.section .section-subtitle {
+.team-list .section-subtitle {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -91,7 +116,8 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--title-text-color);
+
 }
 
 /* абзацы */
@@ -105,7 +131,7 @@ line-height: 24px;
 
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--primary-text-color);
 
 }
 
@@ -120,5 +146,11 @@ line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--primary-text-color);
+}
+
+/* Button */
+.button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
 }
