@@ -10,6 +10,8 @@
 .page {
     background-color: var(--bkg-white-color);
     color: var(--primary-text-color);
+
+    font-family: roboto, sans-serif;
 }
 
 ul {
@@ -20,7 +22,7 @@ ul {
 
 .logo {
     color: #000000;
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
