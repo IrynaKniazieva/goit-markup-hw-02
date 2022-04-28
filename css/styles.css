@@ -4,11 +4,12 @@
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
     --bkg-white-color: #E5E5E5;
+    --bkg-btn-color: #F5F4FA;
 }
 
 .page {
     background-color: var(--bkg-white-color);
-    color: var(--accent-color);
+    color: var(--primary-text-color);
 }
 
 ul {
@@ -150,7 +151,14 @@ color: var(--primary-text-color);
 }
 
 /* Button */
-.button {
+.navigation-list .button {
+    background-color: var(--bkg-btn-color);
+    color: var(--title-text-color);
+}
+
+.navigation-list .button:hover,
+.navigation-list .button:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
+
 }
