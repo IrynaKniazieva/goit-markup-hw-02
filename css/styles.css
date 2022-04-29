@@ -5,6 +5,7 @@
     --white-color: #FFFFFF;
     --bkg-white-color: #E5E5E5;
     --bkg-btn-color: #F5F4FA;
+    --bkg-dark-color: #2F303A;
 }
 
 .page {
@@ -12,6 +13,7 @@
     color: var(--primary-text-color);
 
     font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -39,15 +41,16 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.06em;
     text-decoration: none;      
 }
 
 .list .link {
     color: var(--primary-text-color);
     font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
 
 }
@@ -71,10 +74,11 @@ line-height: 1.14;
     font-size: 44px;
     line-height: 1.36;    
     text-align: center;
-    
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     
     color: var(--white-color);
+    background-color: var(--bkg-dark-color);
     
 }
 
@@ -85,6 +89,7 @@ line-height: 1.14;
    font-size: 36px;
    line-height: 1.16;
    text-align: center;
+   letter-spacing: 0.03em;
    color: var(--title-text-color);
 }
 
@@ -94,6 +99,7 @@ line-height: 1.14;
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
+   letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--title-text-color);
 }
@@ -104,6 +110,7 @@ line-height: 1.14;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
@@ -117,6 +124,7 @@ line-height: 1.14;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 
 }
@@ -127,6 +135,7 @@ line-height: 1.14;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 
 }
@@ -137,13 +146,37 @@ line-height: 1.14;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
 /* Button */
+.hero .button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+}
+
+
 .navigation-list .button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     background-color: var(--bkg-btn-color);
     color: var(--title-text-color);
+    cursor: pointer;
 }
 
 .navigation-list .button:hover,
@@ -151,4 +184,8 @@ line-height: 1.14;
     background-color: var(--accent-color);
     color: var(--white-color);
 
+}
+
+.footer {
+    background-color: var(--bkg-dark-color);
 }
