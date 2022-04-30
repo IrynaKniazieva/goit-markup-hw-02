@@ -206,6 +206,7 @@ ul {
 
 .button-list .current {
     background-color: var(--accent-color);
+    color: var(--white-color);
 }
 
 .button-list .button:hover,
